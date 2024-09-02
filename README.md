@@ -1,5 +1,5 @@
 # CompositeDesignPattern
 
-The Composite design pattern is a structural design pattern that allows you to compose objects into tree-like structures to represent part-whole hierarchies. This pattern treats individual objects and compositions of objects uniformly, making it easier to work with complex tree structures.
+This project demonstrates the Composite Design Pattern, which is a structural design pattern that allows you to compose objects into tree-like structures to represent part-whole hierarchies. The Composite pattern enables you to treat individual objects and compositions of objects uniformly.
 
-The key idea behind the Composite pattern is to define a common interface for all objects in the composition, both leaf nodes and composite nodes. Leaf nodes represent individual objects, while composite nodes are containers that hold other objects. The pattern allows clients to interact with both simple and complex objects in the same way, without needing to know if they are dealing with a single object or a collection of objects.
+In this project, the Composite pattern is illustrated through a system of gifts. The system consists of single gifts and composite gifts, where a composite gift can contain other gifts (both single and composite). This hierarchical structure allows for flexible management of groups of gifts as if they were single items.
