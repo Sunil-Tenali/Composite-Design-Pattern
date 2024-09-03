@@ -20,6 +20,6 @@ The Composite Design Pattern consists of the following parts:
 3. Composite:
 - The ' CompositeGift ' class acts as a composite, managing collections of ' GiftBase ' objects, including other ' CompositeGift ' instances. It treats both individual gifts and composites uniformly, handling hierarchies through the ' GiftBase ' interface without depending on specific child types.
 
-![Module & Class diagram](ModuleAndClassDiagram.jpeg)
+![Module & Class diagram](ClassDiagram.png)
 # Environment
 The project builds and runs with Visual Studio Community 2022 when the required workloads are installed.
